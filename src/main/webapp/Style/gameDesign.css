@@ -1,0 +1,135 @@
+
+body {
+    background: url("../Photo/background.png") no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#init {
+    border: none;
+    color: blue;
+    margin-top: 200px;
+}
+
+#questionContainer {
+    border-radius: 20px;
+    background: url("../Photo/back.png");
+    color: chartreuse;
+    border-color: black;
+    margin-top: 150px;
+}
+
+.container {
+    border: solid 1px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+/*First Page*/
+#name {
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+/*QuestionContainer */
+#question {
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 0px;
+
+}
+#timer {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 580px;
+    background: red;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+#answerField {
+    width: 100px;
+    font-size: 30px;
+    margin: 10px;
+    margin-left: 50px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#answerContainer {
+    width: 1000px;
+    border-radius: 20px;
+    background: url("../Photo/back.png"),url("../Photo/back.png");
+    margin-top: 150px;
+}
+#Answer1 {
+    border: solid 1px;
+    width: 400px;
+    background: yellow;
+    margin: 0px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+#Answer2 {
+    border: solid 1px;
+    width: 400px;
+    background: yellow;
+    margin: 0px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+#trueResponse {
+    margin: 0px;
+    padding: 15px;
+    background: greenyellow;
+    width: 600px;
+    margin: 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.playerName {
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.answer {
+    border: solid 1px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.time {
+    border: solid 1px;
+    width: 150px ;
+    margin: 10px;
+    font-size: medium;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+#score {
+    border: solid 2px;
+    position: fixed;
+    height: 50px;
+    width: 400px;
+    bottom: 0px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    border-bottom: none;
+    border-color: chartreuse;
+}
+.score {
+    border: solid 2px;
+    width:200px ;
+
+}
+#load {
+    width: 300px;
+    height: 150px;
+    margin-left: 500px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Quiz-Game</title>
+    <script src="Script/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="Style/gameDesign.css">
+    <script src="Script/GameController.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="init" class="container">
+    <input type="text" id="name"/>
+</div>
+<div id="questionContainer" class="container">
+    <p id="question"></p>
+
+    <p id="timer"></p>
+    <input type="text" id="answerField">
+</div>
+<img src="Photo/load.gif" id="load"/>
+
+<div id="answerContainer" class="container">
+    <p id="trueResponse"></p>
+    <table>
+        <tr>
+            <td>
+                <div id="Answer1">
+                    <p class="playerName">sdfdsf</p>
+
+                    <p class="time">sdfdsf</p>
+
+                    <p class="answer">sdfsdf</p>
+                </div>
+            </td>
+            <td>
+                <div id="Answer2">
+                    <p class="playerName">sdfsdf</p>
+
+                    <p class="time">sdfdf</p>
+
+                    <p class="answer">sdfdsf</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <table id="score">
+        <tr id="p1Score" class="score">
+            <td id="p1">Слава:1000</td>
+            <td id="p2">Чувак : 300</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

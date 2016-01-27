@@ -1,0 +1,70 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+#map {
+    background: url("../Photo/map.jpg") ;
+    background-size: cover ;
+    background-position: center;
+    margin: 0px ;
+    position: absolute;
+}
+.point {
+      position: absolute ;
+       border-radius: 20px ;
+       width: 20px ;
+       height: 20px ;
+	   background:url("../Photo/back.png"),url("../Photo/back.png") ;
+	   border:solid 2px white ;
+        }
+
+/*points*/
+
+#p1 {
+    top: 30% ;
+    left: 13% ;
+}
+#p2 {
+    top: 75% ;
+    left: 78% ;
+}
+#p3 {
+    top: 32% ;
+    left: 70% ;
+}
+#p4 {
+    top: 62% ;
+    left: 31% ;
+}
+#p5 {
+    top: 45% ;
+    left: 37% ;
+}
+#p6 {
+    top: 78% ;
+    left: 26% ;
+}
+#p7 {
+    top: 55% ;
+    left: 75% ;
+}
+#p8 {
+    top: 30% ;
+    left: 30% ;
+}
+#p9 {
+    top: 78% ;
+    left: 16% ;
+}
+#p10 {
+    top: 54% ;
+    left: 67% ;
+}
+#p11 {
+    top: 45% ;
+    left: 28% ;
+}
+#p12 {
+    top: 76% ;
+    left: 43% ;
+}
